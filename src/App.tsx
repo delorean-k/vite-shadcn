@@ -12,17 +12,18 @@ function App() {
 
     <>
       <div className="p-5">
-        <Button onClick={handleClick}>Click me {counter}</Button>
+        <Button onClick={handleClick}>Click me {counter}</Button><br />
       </div>
+
       <div className='p-5'>
+
         The counter is: {counter}
       </div>
+
       <div className='p-5'>
         <Button onClick={() => setCounter(0)}>Reset</Button>
       </div>
-      <div>
-        
-      </div>
+
     </>
     
   );
